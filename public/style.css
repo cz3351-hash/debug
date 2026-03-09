@@ -1,0 +1,52 @@
+@font-face {
+  font-family: fifties;
+  src: url(fiftiesmovies.ttf); 
+}
+
+@font-face {
+  font-family: simple;
+  src: url(simple.otf); 
+} 
+/* not used at the moment */
+
+body{
+    text-align:center;
+    background-color: black;
+}
+.pillowmaker{
+    font-family:fifties;
+    font-size: 50px;
+    color:aliceblue;
+    margin-top: 5%;
+}
+
+.home{
+  /* background-image: url("home.PNG");
+  background-size: cover;      
+  background-position: center; 
+  height: 100vh;              */
+  font-family:monospace;
+    font-size: 13px;
+    color:aliceblue;
+    text-align:left;
+    width:600px;
+    padding:20px;
+    margin:0 auto;
+}
+
+.nopurple{
+    color:aliceblue;
+}
+.nopurple:visited{
+    color:aliceblue;
+}
+
+.members{
+    text-align:center;
+}
+/* ???? */
+
+.guestbook{
+  color:aliceblue;
+  font-family:monospace;
+}
