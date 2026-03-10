@@ -9,10 +9,13 @@
     <h1 class="pillowmaker">pillowmaker</h1>
       <!-- <script src="scripts/sketch.js"></script> -->
       <br><br><br><br>
-      hello , please take your custom pillow!  <br><br><br>
+      hello <%= guestName %>, please take your custom pillow!  <br><br><br>
       <img src="/images/<%= pillowImage %>" class="pillowImg">
           </div>
 
-      <p><a href="gallery" class="nopurple">enter sleeping space</a></p>
+    <form method="GET" action="/sleepingspace">
+      <p><a href="sleepingspace" class="nopurple">enter sleeping space</a></p>
+      <!-- <input type="button" value="enter sleeping space"> -->
+      </form>
   </body>
 </html>
