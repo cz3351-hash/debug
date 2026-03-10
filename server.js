@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static("public"));
 app.set("view engine", "ejs")
 
-let guestName = [];
+let guestNames = [];
 let pillowHistory = [];
 
 
@@ -48,8 +48,9 @@ app.get('/newpillow', (request, response) => {
     let name = request.query.guestName
     data.guestName = name;
     //storing the names on my erver side
-    guestName.push(name);
-    console.log(guestName)
+    guestNames.push(name);
+    console.log(guestNames)
+
 
 if (request.query.ONE == "oneA" && request.query.TWO == "twoA" && request.query.THREE == "threeA") {
     data.pillowImage = "pillow1.png";
