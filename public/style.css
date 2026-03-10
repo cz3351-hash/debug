@@ -50,3 +50,25 @@ body{
   color:aliceblue;
   font-family:monospace;
 }
+
+.pillowImg{
+  width: 300px;       /* makes the image smaller */
+  display: block;     /* allows margin auto to work */
+  margin: 0 auto;     /* centers the image horizontally */
+
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  font-family: fifties;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-family: monospace;
+}
+
+.fifties{
+    font-family:fifties;
+  }
